@@ -22,11 +22,11 @@ fn main() {
         };
 
         if guess < secret {
-            println!("{}", "Too small..".bold().yellow());
+            println!("{}", "Too small..".yellow());
         } else if guess > secret {
-            println!("{}", "Too large..".bold().red());
+            println!("{}", "Too large..".red());
         } else {
-            println!("{}", "You win!".bold().green());
+            println!("{}", "You win!".green());
             break;
         }
     }
