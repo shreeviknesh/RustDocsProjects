@@ -1,4 +1,4 @@
-struct Rectangle {
+pub struct Rectangle {
     width: u32,
     height: u32,
 }
