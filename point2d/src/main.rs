@@ -1,5 +1,4 @@
 #[derive(Debug)]
-
 pub struct Point2d {
     x: f32,
     y: f32,
@@ -25,7 +24,6 @@ impl Point2d {
 fn main() {
     let pt1 = Point2d::zero();
     let pt2 = Point2d::from(10.0, 20.0);
-    println!("{:?}", pt1);
-    println!("{:?}", pt2);
+    println!("{:?} {:?}", pt1, pt2);
     println!("{}", pt1.dist(&pt2));
 }
