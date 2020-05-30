@@ -4,6 +4,7 @@ use std::io;
 use std::io::Write;
 
 fn main() {
+    println!("GUESSING GAME!!");
     println!("Guess the number from 1-100!");
     let secret = rand::thread_rng().gen_range(1, 101);
 
